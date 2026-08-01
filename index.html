@@ -2974,7 +2974,12 @@ const GDRIVE = {
      HOẶC thêm trường "gh" cho từng sách trong danh mục (đường dẫn file trong repo).
    - Google Drive vẫn được GIỮ LÀM NGUỒN DỰ PHÒNG tự động: nếu jsDelivr chưa có file, web tự lấy từ Drive.
    - Có thể đặt trong danh mục (catalog) qua khoá "ghRepo"/"ghBranch" để đổi mà không cần sửa code. */
-var GHUB = { repo: 'kkbook2026/kk-book-pdfs', branch: 'main', dir: 'pdfs' };
+var GHUB = {
+  repo: '',          /* ví dụ: 'kkbook2026/kk-book-pdfs'   <-- ĐIỀN repo chứa PDF vào đây */
+  branch: 'main',    /* nhánh chứa file, thường là 'main' */
+  dir: 'pdfs'        /* thư mục con trong repo chứa các file PDF (script tạo sẵn thư mục này) */
+};
+
 /* Chỉ tài khoản Google này mới được vào quản trị. Đây là chốt chặn thật:
    khách lạ không bao giờ nhìn thấy ô tạo PIN. */
 const OWNER_EMAIL = 'nguyenduydien75@gmail.com';  /* tài khoản Google có Drive */
