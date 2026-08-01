@@ -761,5 +761,21 @@
     "file": "pdfs/1GahUR5LKztQqN41W55iRR8NX4MtJXIlf.pdf",
     "title": "MA NGUON CUA NGAY MAI(VIEN TUONG)",
     "status": "skip"
+  },
+  {
+    "id": "bmsakke2c9twt9",
+    "driveId": "1igY9qQrXI7-EMbXTJ8NT6AfRmoGOTaq6",
+    "file": "pdfs/1igY9qQrXI7-EMbXTJ8NT6AfRmoGOTaq6.pdf",
+    "title": "UNG DUNG CONG NGHE THONG TIN AI TRUNG QUOC VA THE GIOI",
+    "status": "ok",
+    "bytes": 883976
+  },
+  {
+    "id": "bmsam93alulja5",
+    "driveId": "16KlBrA2cslIke4r6w8EPdzUoDlQDCLqv",
+    "file": "pdfs/16KlBrA2cslIke4r6w8EPdzUoDlQDCLqv.pdf",
+    "title": "CONG LY SO",
+    "status": "ok",
+    "bytes": 493381
   }
 ]
