@@ -37,14 +37,11 @@ jobs:
             https.get(url,res=>{
               if(res.statusCode>=300&&res.statusCode<400&&res.headers.location&&depth<5){res.resume();return resolve(get(res.headers.location,depth+1));}
               if(res.statusCode!==200){let b='';res.on('data',d=>b+=d);res.on('end',()=>reject(new Error('HTTP '+res.statusCode+' '+String(b).slice(0,140))));return;}
-              const ct=String(res.headers['content-type']||'');const ch=[];res.on('data',d=>ch.push(d));
-              res.on('end',()=>{const buf=Buffer.concat(ch);
-                if(/application\/json/i.test(ct)||(buf.length&&buf[0]===0x7b&&buf.length<4000)) return reject(new Error('Drive loi JSON: '+buf.toString('utf8').slice(0,140)));
-                resolve(buf);});
+              const ch=[];res.on('data',d=>ch.push(d));res.on('end',()=>resolve(Buffer.concat(ch)));
             }).on('error',reject);
           });}
           async function dl(id){const url='https://www.googleapis.com/drive/v3/files/'+id+'?alt=media&supportsAllDrives=true&key='+API_KEY;let e=null;
-            for(let k=0;k<=RETRY;k++){try{const b=await get(url);if(!b||b.length<100)throw new Error('file rong');return b;}catch(x){e=x;if(k<RETRY)await sleep(900);}}throw e;}
+            for(let k=0;k<=RETRY;k++){try{const b=await get(url);if(!b||b.length<100)throw new Error('file rong');if(b[0]===0x7b)throw new Error('Drive tra loi: '+b.toString('utf8').slice(0,140));return b;}catch(x){e=x;if(k<RETRY)await sleep(900);}}throw e;}
           (async()=>{
             if(!fs.existsSync(OUT_DIR))fs.mkdirSync(OUT_DIR,{recursive:true});
             console.log('Tai danh muc...');
