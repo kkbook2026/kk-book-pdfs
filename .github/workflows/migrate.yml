@@ -8,6 +8,8 @@ name: Tai PDF tu Drive vao repo
 
 on:
   workflow_dispatch:        # nút bấm chạy tay trong tab Actions
+  schedule:
+    - cron: '0 19 * * *'    # TỰ ĐỘNG chạy mỗi ngày (~02:00 giờ VN) để đồng bộ sách mới từ Drive sang GitHub
 
 permissions:
   contents: write           # cho phép ghi file vào repo
