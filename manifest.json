@@ -767,15 +767,21 @@
     "driveId": "1igY9qQrXI7-EMbXTJ8NT6AfRmoGOTaq6",
     "file": "pdfs/1igY9qQrXI7-EMbXTJ8NT6AfRmoGOTaq6.pdf",
     "title": "UNG DUNG CONG NGHE THONG TIN AI TRUNG QUOC VA THE GIOI",
-    "status": "ok",
-    "bytes": 883976
+    "status": "skip"
   },
   {
     "id": "bmsam93alulja5",
     "driveId": "16KlBrA2cslIke4r6w8EPdzUoDlQDCLqv",
     "file": "pdfs/16KlBrA2cslIke4r6w8EPdzUoDlQDCLqv.pdf",
     "title": "CONG LY SO",
+    "status": "skip"
+  },
+  {
+    "id": "bmsbajlkge0p4w",
+    "driveId": "1bgzTvdteg5ldo6dspMDk5SdUTujY5FHV",
+    "file": "pdfs/1bgzTvdteg5ldo6dspMDk5SdUTujY5FHV.pdf",
+    "title": "TU VAN GIAO DUC SO",
     "status": "ok",
-    "bytes": 493381
+    "bytes": 385676
   }
 ]
