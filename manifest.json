@@ -147,13 +147,6 @@
     "status": "skip"
   },
   {
-    "id": "bmriqssyg724i3",
-    "driveId": "14VGW0SnaYRxpluIpqEdjArl36z2uXcWo",
-    "file": "pdfs/14VGW0SnaYRxpluIpqEdjArl36z2uXcWo.pdf",
-    "title": "LICH SU 10000 NAM LOAI NGUOI",
-    "status": "skip"
-  },
-  {
     "id": "bmriv2n1tx8rus",
     "driveId": "1me64uKdNviLC8Jw0DxjAKyIsYR-ifEtP",
     "file": "pdfs/1me64uKdNviLC8Jw0DxjAKyIsYR-ifEtP.pdf",
@@ -781,15 +774,29 @@
     "driveId": "1_ZP2ptH9MpcgA-zaCEsP6bnNYjQmKqCk",
     "file": "pdfs/1_ZP2ptH9MpcgA-zaCEsP6bnNYjQmKqCk.pdf",
     "title": "BO NAO TAN SO Y THUC",
-    "status": "ok",
-    "bytes": 1776651
+    "status": "skip"
   },
   {
     "id": "bmsdhkeilg4224",
     "driveId": "1Zur9_49D0OwSku_v6lRAuKD3DULnajJ2",
     "file": "pdfs/1Zur9_49D0OwSku_v6lRAuKD3DULnajJ2.pdf",
     "title": "HA NOI 36 PHO PHUONG",
+    "status": "skip"
+  },
+  {
+    "id": "bmsdxnakxdhcsl",
+    "driveId": "107vc47VDBj8IZmkxJd1uyoZlvYMnP69s",
+    "file": "pdfs/107vc47VDBj8IZmkxJd1uyoZlvYMnP69s.pdf",
+    "title": "DU LICH 34 TINH THANH",
     "status": "ok",
-    "bytes": 627003
+    "bytes": 1021512
+  },
+  {
+    "id": "bmsefsoykbg04d",
+    "driveId": "12F7WG6YvNHsEOjYesDIvwoOKt6TTj5gf",
+    "file": "pdfs/12F7WG6YvNHsEOjYesDIvwoOKt6TTj5gf.pdf",
+    "title": "HANH TRINH 10000 NAM",
+    "status": "ok",
+    "bytes": 334841
   }
 ]
