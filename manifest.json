@@ -788,15 +788,37 @@
     "driveId": "107vc47VDBj8IZmkxJd1uyoZlvYMnP69s",
     "file": "pdfs/107vc47VDBj8IZmkxJd1uyoZlvYMnP69s.pdf",
     "title": "DU LICH 34 TINH THANH",
-    "status": "ok",
-    "bytes": 1021512
+    "status": "skip"
   },
   {
     "id": "bmsefsoykbg04d",
     "driveId": "12F7WG6YvNHsEOjYesDIvwoOKt6TTj5gf",
     "file": "pdfs/12F7WG6YvNHsEOjYesDIvwoOKt6TTj5gf.pdf",
     "title": "HANH TRINH 10000 NAM",
+    "status": "skip"
+  },
+  {
+    "id": "bmsfh2ammgrwso",
+    "driveId": "1eWNUPCOz-KKiZXvidDDJBPaf6CwtWHXD",
+    "file": "pdfs/1eWNUPCOz-KKiZXvidDDJBPaf6CwtWHXD.pdf",
+    "title": "KINH LE TRONG NGU KINH",
     "status": "ok",
-    "bytes": 334841
+    "bytes": 871518
+  },
+  {
+    "id": "bmsfksr1lulkej",
+    "driveId": "1D3hzLDzP8qkr-gh2pFbO7SSxsUjLq-c3",
+    "file": "pdfs/1D3hzLDzP8qkr-gh2pFbO7SSxsUjLq-c3.pdf",
+    "title": "TU THU NGU KINH",
+    "status": "ok",
+    "bytes": 1524843
+  },
+  {
+    "id": "bmsg0hbrats4pz",
+    "driveId": "1EXJzfjdv1GTdTRxqgVzZo9iVvpyd3U5l",
+    "file": "pdfs/1EXJzfjdv1GTdTRxqgVzZo9iVvpyd3U5l.pdf",
+    "title": "NHAT BAN",
+    "status": "ok",
+    "bytes": 909686
   }
 ]
