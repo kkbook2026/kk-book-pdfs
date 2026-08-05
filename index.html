@@ -2928,6 +2928,7 @@ footer{
    Tác giả : Nguyễn Duy Điển (KK-2026)
 ===================================================================== */
 'use strict';
+try{ console.log('%cKK-BOOK · Trình đọc SIÊU NÉT v3 (render 3x + ổn định bố cục)','color:#c9a227;font-weight:bold;font-size:13px'); }catch(e){}
 
 /* pdf.js worker: KHÔNG dùng trực tiếp URL từ CDN khác nguồn, vì trình duyệt CHẶN
    new Worker() cross-origin -> hậu quả là MỌI file PDF không mở được trên tên miền thật.
@@ -4437,10 +4438,8 @@ async function openReader(book){
     rDoc = await pdfjsLib.getDocument({ data: buf }).promise;
     if(!rDoc || !rDoc.numPages){ throw new Error('Không đọc được nội dung PDF.'); }
     rPage = 1;
-    /* Render ngay, rồi render lại sau khi bố cục trình đọc ổn định (kích thước đúng, nét). */
-    renderPage();
-    requestAnimationFrame(function(){ if(rDoc) renderPage(); });
-    setTimeout(function(){ if(rDoc) renderPage(); }, 120);
+    /* Vẽ trang bìa với ổn định bố cục (như mọi trang khác) */
+    renderPageSettle();
   }catch(e){
     console.error('Lỗi mở sách:', e);
     const la404 = /404/.test(e.message || '');
@@ -4489,7 +4488,7 @@ async function renderPage(){
        không bị nội suy nửa điểm ảnh (nguyên nhân chính gây mờ chữ). */
     let dpr = window.devicePixelRatio || 1;
     dpr = Math.min(Math.max(dpr, 1), 4);          /* tới 4x trên màn Retina/4K */
-    if(dpr < 2) dpr = 2.5;                        /* màn thường: vẽ 2,5x cho chữ thật sắc nét */
+    if(dpr < 3) dpr = 3;                         /* ÉP tối thiểu 3x trên MỌI màn hình (kể cả Retina) -> chữ sắc nét tối đa */
 
     /* Safari giới hạn điểm ảnh mỗi canvas. iPad mạnh hơn iPhone nên cho ngưỡng cao hơn.
        (iPhone ~16,7 triệu; iPad có thể cao hơn; máy tính rất thoáng.) */
@@ -4533,7 +4532,7 @@ async function renderPage(){
     paintWatermark(ctx, cssVp.width, cssVp.height, settings.wmText, settings.wmOpacity/100);
     ctx.restore();
 
-    $('#pageInd').textContent = rPage + ' / ' + rDoc.numPages;
+    $('#pageInd').textContent = rPage + ' / ' + rDoc.numPages + '  ✦v3';
     $('#prevPage').disabled = rPage<=1;
     $('#nextPage').disabled = rPage>=rDoc.numPages;
     $('#zoomInd') && ($('#zoomInd').textContent = Math.round(rZoom*100) + '%');
@@ -4546,24 +4545,32 @@ async function renderPage(){
   rendering = false;
   if(pendingPage!==null){ pendingPage=null; renderPage(); }
 }
+/* Vẽ trang với "ổn định bố cục": vẽ ngay, rồi vẽ lại sau khi trình duyệt dàn xong
+   (tránh trường hợp trang mới vẽ ở kích thước chưa ổn định -> mờ, phải zoom mới nét).
+   Đây chính là lý do trang bìa luôn nét; giờ áp dụng cho MỌI trang. */
+function renderPageSettle(){
+  renderPage();
+  requestAnimationFrame(function(){ if(rDoc) renderPage(); });
+  setTimeout(function(){ if(rDoc) renderPage(); }, 90);
+}
 /* LẬT TRANG - mọi đường đều đi qua đây, có chốt chặn thu phí */
 function sangTrang(trangMoi){
   if(!rDoc) return false;
   if(trangMoi < 1 || trangMoi > rDoc.numPages) return false;
   if(!chanTrang(trangMoi)) return false;      /* hết trang miễn phí -> chặn */
   rPage = trangMoi;
-  renderPage();
   $('#readerStage').scrollTop = 0;
+  renderPageSettle();
   return true;
 }
 $('#prevPage').addEventListener('click', ()=>{ if(sangTrang(rPage-1) && ttsOn) speakPage(); });
 $('#nextPage').addEventListener('click', ()=>{ if(sangTrang(rPage+1) && ttsOn) speakPage(); });
-$('#zoomIn').addEventListener('click', ()=>{ rZoom=Math.min(rZoom+.2, 3); renderPage(); });
-$('#zoomOut').addEventListener('click', ()=>{ rZoom=Math.max(rZoom-.2, .5); renderPage(); });
+$('#zoomIn').addEventListener('click', ()=>{ rZoom=Math.min(rZoom+.2, 3); renderPageSettle(); });
+$('#zoomOut').addEventListener('click', ()=>{ rZoom=Math.max(rZoom-.2, .5); renderPageSettle(); });
 $('#fitBtn').addEventListener('click', ()=>{
   $('#reader').classList.toggle('bleed');
   rZoom = 1;
-  renderPage();
+  renderPageSettle();
 });
 $('#closeReader').addEventListener('click', closeReader);
 function closeReader(){
