@@ -823,7 +823,14 @@
     "driveId": "1W6qZtRe4w-gpuhJqdutIjDn1HRCwAP2Z",
     "file": "pdfs/1W6qZtRe4w-gpuhJqdutIjDn1HRCwAP2Z.pdf",
     "title": "AN DO TOAN TAP",
+    "status": "skip"
+  },
+  {
+    "id": "bmsj2intfoi9ln",
+    "driveId": "1_dIBboZ1qVPp3Oj7z1HYT1ZnW5EvicjE",
+    "file": "pdfs/1_dIBboZ1qVPp3Oj7z1HYT1ZnW5EvicjE.pdf",
+    "title": "10  GIA TOC GIAU NHAT THE GIOI",
     "status": "ok",
-    "bytes": 737015
+    "bytes": 546064
   }
 ]
