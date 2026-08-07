@@ -802,23 +802,28 @@
     "driveId": "1eWNUPCOz-KKiZXvidDDJBPaf6CwtWHXD",
     "file": "pdfs/1eWNUPCOz-KKiZXvidDDJBPaf6CwtWHXD.pdf",
     "title": "KINH LE TRONG NGU KINH",
-    "status": "ok",
-    "bytes": 871518
+    "status": "skip"
   },
   {
     "id": "bmsfksr1lulkej",
     "driveId": "1D3hzLDzP8qkr-gh2pFbO7SSxsUjLq-c3",
     "file": "pdfs/1D3hzLDzP8qkr-gh2pFbO7SSxsUjLq-c3.pdf",
     "title": "TU THU NGU KINH",
-    "status": "ok",
-    "bytes": 1524843
+    "status": "skip"
   },
   {
     "id": "bmsg0hbrats4pz",
     "driveId": "1EXJzfjdv1GTdTRxqgVzZo9iVvpyd3U5l",
     "file": "pdfs/1EXJzfjdv1GTdTRxqgVzZo9iVvpyd3U5l.pdf",
     "title": "NHAT BAN",
+    "status": "skip"
+  },
+  {
+    "id": "bmsh5fuh53fjmg",
+    "driveId": "1W6qZtRe4w-gpuhJqdutIjDn1HRCwAP2Z",
+    "file": "pdfs/1W6qZtRe4w-gpuhJqdutIjDn1HRCwAP2Z.pdf",
+    "title": "AN DO TOAN TAP",
     "status": "ok",
-    "bytes": 909686
+    "bytes": 737015
   }
 ]
