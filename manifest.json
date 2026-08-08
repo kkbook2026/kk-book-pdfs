@@ -830,7 +830,246 @@
     "driveId": "1_dIBboZ1qVPp3Oj7z1HYT1ZnW5EvicjE",
     "file": "pdfs/1_dIBboZ1qVPp3Oj7z1HYT1ZnW5EvicjE.pdf",
     "title": "10  GIA TOC GIAU NHAT THE GIOI",
+    "status": "skip"
+  },
+  {
+    "id": "bmsjp86py3o6dh",
+    "driveId": "1LVQxYGN4AaCe9_bIfolKdjmR2SElO0Eu",
+    "file": "pdfs/1LVQxYGN4AaCe9_bIfolKdjmR2SElO0Eu.pdf",
+    "title": "TRIET HOC(MINH TRIET)",
     "status": "ok",
-    "bytes": 546064
+    "bytes": 524373
+  },
+  {
+    "id": "bmsjpa76pwnhla",
+    "driveId": "1zP-YoE4WXe5jPFcHGeK1IYhNYjCjSeNv",
+    "file": "pdfs/1zP-YoE4WXe5jPFcHGeK1IYhNYjCjSeNv.pdf",
+    "title": "AM NHAC(GIAI DIEU BAT TU)",
+    "status": "ok",
+    "bytes": 473507
+  },
+  {
+    "id": "bmsjpevwfmvrfk",
+    "driveId": "1NeyGOdStIl-mwA6VT9kf2Id6HAR1T-4b",
+    "file": "pdfs/1NeyGOdStIl-mwA6VT9kf2Id6HAR1T-4b.pdf",
+    "title": "KIEN TRUC(HINH KHOI VA ANH SANG)",
+    "status": "ok",
+    "bytes": 493946
+  },
+  {
+    "id": "bmsjphqhhrf35y",
+    "driveId": "1qmTp-KCfTRMt9R48JLBzm-pdDfVVTkxq",
+    "file": "pdfs/1qmTp-KCfTRMt9R48JLBzm-pdDfVVTkxq.pdf",
+    "title": "VAN HOC(TIENG GOI NGAN NAM)",
+    "status": "ok",
+    "bytes": 447263
+  },
+  {
+    "id": "bmsjpkcwnrb1bn",
+    "driveId": "13iDtHS2wRczN3JPgZQk7rjiXISlsm6bU",
+    "file": "pdfs/13iDtHS2wRczN3JPgZQk7rjiXISlsm6bU.pdf",
+    "title": "KINH TE(BAN TAY VO HINH)",
+    "status": "ok",
+    "bytes": 468279
+  },
+  {
+    "id": "bmsjyax74wkaok",
+    "driveId": "1tEiY58UCBJYx1bUV6-r2a9aI-0Ns1n-1",
+    "file": "pdfs/1tEiY58UCBJYx1bUV6-r2a9aI-0Ns1n-1.pdf",
+    "title": "TAM LY HOC( TAM GUONG TAM TRI)",
+    "status": "ok",
+    "bytes": 455819
+  },
+  {
+    "id": "bmsjydzeu48q32",
+    "driveId": "1zYphVQaCzsBpldF13ZkEHlWrDQlsSTWW",
+    "file": "pdfs/1zYphVQaCzsBpldF13ZkEHlWrDQlsSTWW.pdf",
+    "title": "LICH SU THE GIOI(DONG SONG THOI GIAN)",
+    "status": "ok",
+    "bytes": 424061
+  },
+  {
+    "id": "bmsjyk2ppvivv7",
+    "driveId": "1BFLeWO5IA2K2r1d9QBacSTha9HfSuEaW",
+    "file": "pdfs/1BFLeWO5IA2K2r1d9QBacSTha9HfSuEaW.pdf",
+    "title": "SINH HOC(CAY SU SONG)",
+    "status": "ok",
+    "bytes": 435831
+  },
+  {
+    "id": "bmsjylsvtzn1ng",
+    "driveId": "1c9pqjAij-4boPktSEQ1Ktf3QmAT366tO",
+    "file": "pdfs/1c9pqjAij-4boPktSEQ1Ktf3QmAT366tO.pdf",
+    "title": "QUY LUAT VU TRU",
+    "status": "ok",
+    "bytes": 428228
+  },
+  {
+    "id": "bmsjyoscjpt6br",
+    "driveId": "1um3OQs_CtzwOtYdaVh9JtUwqCuOqJu4v",
+    "file": "pdfs/1um3OQs_CtzwOtYdaVh9JtUwqCuOqJu4v.pdf",
+    "title": "MAU SAC VA ANH SANG",
+    "status": "ok",
+    "bytes": 393980
+  },
+  {
+    "id": "bmsjysg9jk3f7o",
+    "driveId": "1xyaz5EbdQy2h5GpfcueAcuOL4CRKWeOR",
+    "file": "pdfs/1xyaz5EbdQy2h5GpfcueAcuOL4CRKWeOR.pdf",
+    "title": "TOAN HOC NGON NGU CUA VU TRU V2",
+    "status": "ok",
+    "bytes": 408287
+  },
+  {
+    "id": "bmsjytq1c1g57d",
+    "driveId": "1YeUMubZUiJ6hK0BrRelKPEOSSFWhLl68",
+    "file": "pdfs/1YeUMubZUiJ6hK0BrRelKPEOSSFWhLl68.pdf",
+    "title": "THAN THOAI(NHUNG VI THAN)",
+    "status": "ok",
+    "bytes": 402937
+  },
+  {
+    "id": "bmsjyv9z3lechf",
+    "driveId": "1js3sALFRKxAJyq8XQX6JPT8T1YyTYUtd",
+    "file": "pdfs/1js3sALFRKxAJyq8XQX6JPT8T1YyTYUtd.pdf",
+    "title": "Y HOC(NGUOI CHUA LANH)",
+    "status": "ok",
+    "bytes": 410318
+  },
+  {
+    "id": "bmsjywzy2zb6re",
+    "driveId": "16yhZ6D0mq3hW4ABXgv16FjmzR3MI21mV",
+    "file": "pdfs/16yhZ6D0mq3hW4ABXgv16FjmzR3MI21mV.pdf",
+    "title": "VAT CHAT VA BIEN DOI",
+    "status": "ok",
+    "bytes": 390415
+  },
+  {
+    "id": "bmsjzei0cppxw1",
+    "driveId": "1PxV_mZ-VfqpKux_wqnLddQtjxI4iFff_",
+    "file": "pdfs/1PxV_mZ-VfqpKux_wqnLddQtjxI4iFff_.pdf",
+    "title": "CHAN TROI VU TRU",
+    "status": "ok",
+    "bytes": 419442
+  },
+  {
+    "id": "bmsjzg2etdho7q",
+    "driveId": "1CfZtTMVu5NNTob-j9mtfK6Ogxp7yMbrt",
+    "file": "pdfs/1CfZtTMVu5NNTob-j9mtfK6Ogxp7yMbrt.pdf",
+    "title": "DAI DUONG TRAI TIM XANH",
+    "status": "ok",
+    "bytes": 428833
+  },
+  {
+    "id": "bmsjzhw72jmgqj",
+    "driveId": "1Qk18vt-SnfU4UP9EAnVOSr_XRm1DVZ9g",
+    "file": "pdfs/1Qk18vt-SnfU4UP9EAnVOSr_XRm1DVZ9g.pdf",
+    "title": "AM THUC HUONG VI THE GIAN",
+    "status": "ok",
+    "bytes": 420324
+  },
+  {
+    "id": "bmsjzk0wtwbmy5",
+    "driveId": "15nd85qXSqVxdT04Sldwo07fw5HDLCuAg",
+    "file": "pdfs/15nd85qXSqVxdT04Sldwo07fw5HDLCuAg.pdf",
+    "title": "DIEN ANH(ANH SANG VA GIAC MO)",
+    "status": "ok",
+    "bytes": 421814
+  },
+  {
+    "id": "bmsjzm1wduhe9u",
+    "driveId": "11xBto_Nsk9ssAVQ43kAjqhTsXxtA41DC",
+    "file": "pdfs/11xBto_Nsk9ssAVQ43kAjqhTsXxtA41DC.pdf",
+    "title": "TRAI DAT HANH TINH SONG",
+    "status": "ok",
+    "bytes": 411289
+  },
+  {
+    "id": "bmsjzozgxmvbut",
+    "driveId": "1nBaGG8bnEcWU-lVGQ7uJ5XAakASZ59TN",
+    "file": "pdfs/1nBaGG8bnEcWU-lVGQ7uJ5XAakASZ59TN.pdf",
+    "title": "NGON NGU TIENG NOI CUA CON NGUOI",
+    "status": "ok",
+    "bytes": 415896
+  },
+  {
+    "id": "bmsk61vguq6v0f",
+    "driveId": "1GmPXJfqnNYzt2J0_vEQ6QpmcR_bRp8TT",
+    "file": "pdfs/1GmPXJfqnNYzt2J0_vEQ6QpmcR_bRp8TT.pdf",
+    "title": "TIENG VONG NGAN XUA",
+    "status": "ok",
+    "bytes": 426974
+  },
+  {
+    "id": "bmsk6jr27ao77z",
+    "driveId": "11_F6J_bGmPGdpYjNFkb72_0HZ1j4Ro8-",
+    "file": "pdfs/11_F6J_bGmPGdpYjNFkb72_0HZ1j4Ro8-.pdf",
+    "title": "VU TRU BA CAN",
+    "status": "ok",
+    "bytes": 393102
+  },
+  {
+    "id": "bmsk6mppazv25x",
+    "driveId": "1Aghbd2yG0JY9TopG44b4ytzF8mL56Tvp",
+    "file": "pdfs/1Aghbd2yG0JY9TopG44b4ytzF8mL56Tvp.pdf",
+    "title": "VUONG QUOC XANH",
+    "status": "ok",
+    "bytes": 401674
+  },
+  {
+    "id": "bmsk6rwebpxt1k",
+    "driveId": "15hBR3kkj7NGLxobjTzytSKNET4UdTFeo",
+    "file": "pdfs/15hBR3kkj7NGLxobjTzytSKNET4UdTFeo.pdf",
+    "title": "KE CHINH PHUC BAU TROI",
+    "status": "ok",
+    "bytes": 390415
+  },
+  {
+    "id": "bmsk6tknqzifq2",
+    "driveId": "1WIOwc_C600P4bkZvT9JJYr6pm9vebft5",
+    "file": "pdfs/1WIOwc_C600P4bkZvT9JJYr6pm9vebft5.pdf",
+    "title": "BO OC DIEN TU",
+    "status": "ok",
+    "bytes": 398192
+  },
+  {
+    "id": "bmsk7az3vcknbo",
+    "driveId": "1MSWvQhED-hgPgnNC1cSHvNJIwqmDQ7lP",
+    "file": "pdfs/1MSWvQhED-hgPgnNC1cSHvNJIwqmDQ7lP.pdf",
+    "title": "CHUNG TA SONG CUNG NHAU",
+    "status": "ok",
+    "bytes": 391222
+  },
+  {
+    "id": "bmsk7cm83pz2nn",
+    "driveId": "1aRxAnth9GJBwhe3whCHk_IAjS15k_Q2K",
+    "file": "pdfs/1aRxAnth9GJBwhe3whCHk_IAjS15k_Q2K.pdf",
+    "title": "THE GIOI SAU GIAC NGU",
+    "status": "ok",
+    "bytes": 391787
+  },
+  {
+    "id": "bmsk7eqdmfk4r9",
+    "driveId": "1Cpa7NWtv4RoUUDGN1gOEDKiDrU1MIKIS",
+    "file": "pdfs/1Cpa7NWtv4RoUUDGN1gOEDKiDrU1MIKIS.pdf",
+    "title": "GIOI HAN CON NGUOI",
+    "status": "ok",
+    "bytes": 386323
+  },
+  {
+    "id": "bmsk7hof89jooo",
+    "driveId": "1yqGLoQq6G3cZfD9EcQi5ujDCu69_B_xw",
+    "file": "pdfs/1yqGLoQq6G3cZfD9EcQi5ujDCu69_B_xw.pdf",
+    "title": "THE GIOI SAU CHAN",
+    "status": "ok",
+    "bytes": 398085
+  },
+  {
+    "id": "bmsk7l5tdqplwb",
+    "driveId": "1zbplx6VLkXJCGR8DS2pD3572YMJPAnQB",
+    "file": "pdfs/1zbplx6VLkXJCGR8DS2pD3572YMJPAnQB.pdf",
+    "title": "KHOANH KHAC BAT TU",
+    "status": "ok",
+    "bytes": 386529
   }
 ]
