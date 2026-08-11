@@ -1180,103 +1180,122 @@
     "driveId": "1uSu00WlZsFAD2tfRtaY1YB0UHqNq8BV0",
     "file": "pdfs/1uSu00WlZsFAD2tfRtaY1YB0UHqNq8BV0.pdf",
     "title": "CU DAN CUA NUOC",
-    "status": "ok",
-    "bytes": 496124
+    "status": "skip"
   },
   {
     "id": "bmsmnbpk44i5et",
     "driveId": "1m2vbAaIfU4-7LcU1xqdwtLHnIi0k4NMq",
     "file": "pdfs/1m2vbAaIfU4-7LcU1xqdwtLHnIi0k4NMq.pdf",
     "title": "KHO BAU CUA LONG DAT",
-    "status": "ok",
-    "bytes": 488927
+    "status": "skip"
   },
   {
     "id": "bmsmncyk0wqheu",
     "driveId": "1aKweoaaFNf795ZULOkUitb645aADk5-A",
     "file": "pdfs/1aKweoaaFNf795ZULOkUitb645aADk5-A.pdf",
     "title": "KHI DAT NOI GIAN",
-    "status": "ok",
-    "bytes": 464494
+    "status": "skip"
   },
   {
     "id": "bmsmndsl3run8u",
     "driveId": "1LUSJ6td1tjVFKyBL5rWqjYRVoUAZyXta",
     "file": "pdfs/1LUSJ6td1tjVFKyBL5rWqjYRVoUAZyXta.pdf",
     "title": "THE GIOI DUOI LONG DAT",
-    "status": "ok",
-    "bytes": 486833
+    "status": "skip"
   },
   {
     "id": "bmsmnenmhu05ae",
     "driveId": "10-F67Sv5ibPBwVK1g-RrBanzezxH873y",
     "file": "pdfs/10-F67Sv5ibPBwVK1g-RrBanzezxH873y.pdf",
     "title": "DONG CHAY THOI GIAN",
-    "status": "ok",
-    "bytes": 478617
+    "status": "skip"
   },
   {
     "id": "bmsmnf3tq912y6",
     "driveId": "1WP6yQDfVUUEIzS7PPokEczGA5mslKRDR",
     "file": "pdfs/1WP6yQDfVUUEIzS7PPokEczGA5mslKRDR.pdf",
     "title": "CO MAY KY DIEU",
-    "status": "ok",
-    "bytes": 465165
+    "status": "skip"
   },
   {
     "id": "bmsmnfnicv8gq1",
     "driveId": "1tFfjIt3tqpizOWmBeBL71VnCs0wQLtbs",
     "file": "pdfs/1tFfjIt3tqpizOWmBeBL71VnCs0wQLtbs.pdf",
     "title": "NGHE THUAT SONG HANH PHUC",
-    "status": "ok",
-    "bytes": 463201
+    "status": "skip"
   },
   {
     "id": "bmsmngtvuh10t2",
     "driveId": "1zIBySKB3kNOTPqfvuUwQs_nu4xRpTVvH",
     "file": "pdfs/1zIBySKB3kNOTPqfvuUwQs_nu4xRpTVvH.pdf",
     "title": "NGON NGU CUA TRAI TIM",
-    "status": "ok",
-    "bytes": 507655
+    "status": "skip"
   },
   {
     "id": "bmsmnhmhipxv0l",
     "driveId": "1mhdtf0eEaAxzvY_4TuPtK2pos8oZwh6a",
     "file": "pdfs/1mhdtf0eEaAxzvY_4TuPtK2pos8oZwh6a.pdf",
     "title": "CUOC CACH MANG CUA TRANG SACH",
-    "status": "ok",
-    "bytes": 467084
+    "status": "skip"
   },
   {
     "id": "bmsmnirqx67bi5",
     "driveId": "1bNkM6EIOY6IcBsIGoFYM8-ZkyIwvCHq4",
     "file": "pdfs/1bNkM6EIOY6IcBsIGoFYM8-ZkyIwvCHq4.pdf",
     "title": "TIENG NOI CUA THOI DAI",
-    "status": "ok",
-    "bytes": 465872
+    "status": "skip"
   },
   {
     "id": "bmsmnjglm8wq44",
     "driveId": "1BEcyKxLSy8MY5bz-FbNVPPQyd1jH19xp",
     "file": "pdfs/1BEcyKxLSy8MY5bz-FbNVPPQyd1jH19xp.pdf",
     "title": "NHUNG NGAY HOI CUA LOAI NGUOI",
-    "status": "ok",
-    "bytes": 464266
+    "status": "skip"
   },
   {
     "id": "bmsmnjwdpybt1x",
     "driveId": "1QtWzWvkU7ggso3mNNXPoWEBTzKt_KatY",
     "file": "pdfs/1QtWzWvkU7ggso3mNNXPoWEBTzKt_KatY.pdf",
     "title": "THE GIOI CUA HUONG THOM",
-    "status": "ok",
-    "bytes": 487077
+    "status": "skip"
   },
   {
     "id": "bmsmnkagn8r777",
     "driveId": "1DvHDBvK9cMgZRlbHVAIsvS2FW9FGu2wT",
     "file": "pdfs/1DvHDBvK9cMgZRlbHVAIsvS2FW9FGu2wT.pdf",
     "title": "BAN TAY VA DAT SET",
+    "status": "skip"
+  },
+  {
+    "id": "bmso19piu48rri",
+    "driveId": "1oPXZw0-rPHpYYxnRFtFoMGi8onA8qbsF",
+    "file": "pdfs/1oPXZw0-rPHpYYxnRFtFoMGi8onA8qbsF.pdf",
+    "title": "NHUNG CHAT LIEU CUA THE GIOI",
     "status": "ok",
-    "bytes": 453503
+    "bytes": 484370
+  },
+  {
+    "id": "bmso1a9fxxga6b",
+    "driveId": "1j-bCwnaC4tWHiOYQR9CEp4-9lbu_5cT5",
+    "file": "pdfs/1j-bCwnaC4tWHiOYQR9CEp4-9lbu_5cT5.pdf",
+    "title": "NGHE THUAT CUA NET CHU",
+    "status": "ok",
+    "bytes": 490152
+  },
+  {
+    "id": "bmso1bryyc530j",
+    "driveId": "1CuoIXTh_li1V8Le1FqyvXajXFzUKStB7",
+    "file": "pdfs/1CuoIXTh_li1V8Le1FqyvXajXFzUKStB7.pdf",
+    "title": "NHUNG Y TUONG THAY DOI THE GIOI",
+    "status": "ok",
+    "bytes": 463832
+  },
+  {
+    "id": "bmso1c9arf6ijf",
+    "driveId": "1k7ewqu7kY9Oj0iIlQmv9Hu4-4dmqgnGd",
+    "file": "pdfs/1k7ewqu7kY9Oj0iIlQmv9Hu4-4dmqgnGd.pdf",
+    "title": "KY NGUYEN ROBOT",
+    "status": "ok",
+    "bytes": 487989
   }
 ]
