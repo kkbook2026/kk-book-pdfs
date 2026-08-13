@@ -589,24 +589,10 @@
     "status": "skip"
   },
   {
-    "id": "bmsq63kcm87ksw",
-    "driveId": "16D6CyR3rDmyfGzP95mHYB3_2rotSW9aT",
-    "file": "pdfs/16D6CyR3rDmyfGzP95mHYB3_2rotSW9aT.pdf",
-    "title": "Hệ Điều Hành: Windows, macOS, Android, Linux — Nguyễn Duy Điển",
-    "status": "skip"
-  },
-  {
     "id": "bmsq63kcmq13z2",
     "driveId": "1k7ewqu7kY9Oj0iIlQmv9Hu4-4dmqgnGd",
     "file": "pdfs/1k7ewqu7kY9Oj0iIlQmv9Hu4-4dmqgnGd.pdf",
     "title": "Ky Nguyen Robot",
-    "status": "skip"
-  },
-  {
-    "id": "bmsq63kcmrekd4",
-    "driveId": "1CuoIXTh_li1V8Le1FqyvXajXFzUKStB7",
-    "file": "pdfs/1CuoIXTh_li1V8Le1FqyvXajXFzUKStB7.pdf",
-    "title": "Nhung Y Tuong Thay Doi The Gioi",
     "status": "skip"
   },
   {
@@ -1385,5 +1371,13 @@
     "file": "pdfs/14a-HbZPR8cZBfgXjB7l7J0sk-9HjtDS9.pdf",
     "title": "Phat Phap Toan Thu",
     "status": "skip"
+  },
+  {
+    "id": "bmsr8wo3nyfus3",
+    "driveId": "1Lm90hN6grlrkBx2UIXE5in7DKB0bAy83",
+    "file": "pdfs/1Lm90hN6grlrkBx2UIXE5in7DKB0bAy83.pdf",
+    "title": "CAC HE DIEU HANH PHO BIEN",
+    "status": "ok",
+    "bytes": 1264875
   }
 ]
