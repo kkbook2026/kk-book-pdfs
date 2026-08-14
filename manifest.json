@@ -183,13 +183,6 @@
     "status": "skip"
   },
   {
-    "id": "bmrj1huo1pqvv1",
-    "driveId": "1BIRcjFmIOwdWc9oQutqDypMXuOuALI_C",
-    "file": "pdfs/1BIRcjFmIOwdWc9oQutqDypMXuOuALI_C.pdf",
-    "title": "Bao Mat Cong Nghe Thong Tin",
-    "status": "skip"
-  },
-  {
     "id": "bmrj7ej905646r",
     "driveId": "1OlnDYhKHEY_-tTwv5JDqUp0yIms-cSSV",
     "file": "pdfs/1OlnDYhKHEY_-tTwv5JDqUp0yIms-cSSV.pdf",
@@ -1377,7 +1370,22 @@
     "driveId": "1Lm90hN6grlrkBx2UIXE5in7DKB0bAy83",
     "file": "pdfs/1Lm90hN6grlrkBx2UIXE5in7DKB0bAy83.pdf",
     "title": "CAC HE DIEU HANH PHO BIEN",
+    "status": "skip"
+  },
+  {
+    "id": "bmssbol85t0vf5",
+    "driveId": "1SLZ4-m9cixP73udQ8-N30IyeQdiraSJJ",
+    "file": "pdfs/1SLZ4-m9cixP73udQ8-N30IyeQdiraSJJ.pdf",
+    "title": "MAY CHU VA HE THONG LUU TRU",
     "status": "ok",
-    "bytes": 1264875
+    "bytes": 1412289
+  },
+  {
+    "id": "bmssdm0zfcc10e",
+    "driveId": "1GngOgvtbUN6z4AUy4fsHpc4rXfpJPKt9",
+    "file": "pdfs/1GngOgvtbUN6z4AUy4fsHpc4rXfpJPKt9.pdf",
+    "title": "BAO MAT CONG NGHE THONG TIN TOAN DIEN",
+    "status": "ok",
+    "bytes": 1028833
   }
 ]
