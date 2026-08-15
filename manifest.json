@@ -1377,15 +1377,13 @@
     "driveId": "1SLZ4-m9cixP73udQ8-N30IyeQdiraSJJ",
     "file": "pdfs/1SLZ4-m9cixP73udQ8-N30IyeQdiraSJJ.pdf",
     "title": "MAY CHU VA HE THONG LUU TRU",
-    "status": "ok",
-    "bytes": 1412289
+    "status": "skip"
   },
   {
     "id": "bmssdm0zfcc10e",
     "driveId": "1GngOgvtbUN6z4AUy4fsHpc4rXfpJPKt9",
     "file": "pdfs/1GngOgvtbUN6z4AUy4fsHpc4rXfpJPKt9.pdf",
     "title": "BAO MAT CONG NGHE THONG TIN TOAN DIEN",
-    "status": "ok",
-    "bytes": 1028833
+    "status": "skip"
   }
 ]
